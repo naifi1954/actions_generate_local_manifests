@@ -13,13 +13,13 @@ jobs:
   build:
     name: Generate Local Manifests by ${{ github.actor }}
     if: github.event.repository.owner.id == github.event.sender.id
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.PAT }}
     permissions: write-all
     steps:
     - name: Check Out
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     - name: Prepare GithubCLI
       run: |
