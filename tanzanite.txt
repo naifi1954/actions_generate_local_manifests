@@ -1,4 +1,4 @@
 repo init -u https://github.com/crdroidandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
 git clone https://github.com/naifi1954/android_device_xiaomi_tanzanite device/xiaomi/tanzanite -b lineage-23.2
 git clone https://github.com/nathanzerogarage/android_device_xiaomi_tanzanite-kernel device/xiaomi/tanzanite-kernel -b vanilla
-git clone https://github.com/halcyonproject/vendor/xiaomi/tanzanite vendor/xiaomi/tanzanite 16.2
+git clone https://github.com/halcyonproject/vendor_xiaomi_tanzanite vendor/xiaomi/tanzanite 16.2
