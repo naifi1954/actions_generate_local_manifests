@@ -7,4 +7,4 @@ git clone https://git.hlcyn.org/halcyonlv/vendor_mediatek_ims.git -b 16.2 vendor
 git clone https://github.com/halcyonproject/hardware_mediatek.git -b 16.2 hardware/mediatek
 git clone https://github.com/halcyonproject/hardware_xiaomi.git -b 16.2 hardware/xiaomi
 git clone https://github.com/halcyonproject/external_wpa_supplicant_8.git -b 16.2 external/wpa_supplicant_8
-git clone https://github.com/naifi1954/lineage_priv_keys.git -b lineage-23.2 vendor/private/keys
+git clone https://github.com/naifi1954/android_vendor_lineage-priv_keys -b master vendor/private/keys
