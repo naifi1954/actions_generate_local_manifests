@@ -1,10 +1,10 @@
-repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs
+repo init -u https://github.com/crdroidandroid/android.git -b 16.0 --git-lfs
 git clone https://github.com/naifi1954/android_device_xiaomi_tanzanite.git -b lineage-23.2 device/xiaomi/tanzanite
 git clone https://github.com/naifi1954/android_device_xiaomi_tanzanite-kernel.git -b lineage-23.2 device/xiaomi/tanzanite-kernel
 git clone https://github.com/naifi1954/android_vendor_xiaomi_tanzanite.git -b lineage-23.2 vendor/xiaomi/tanzanite
 git clone https://github.com/halcyonproject/device_mediatek_sepolicy_vndr.git -b 16.2 device/mediatek/sepolicy_vndr
 git clone https://git.hlcyn.org/halcyonlv/vendor_mediatek_ims.git -b 16.2 vendor/mediatek/ims
-git clone https://github.com/halcyonproject/hardware_mediatek.git -b 16.2 hardware/mediatek
-git clone https://github.com/halcyonproject/hardware_xiaomi.git -b 16.2 hardware/xiaomi
+git clone https://github.com/crdroidandroid/android_hardware_mediatek.git -b 16.0 hardware/mediatek
+git clone https://github.com/crdroidandroid/android_hardware_xiaomi.git -b 16.0 hardware/xiaomi
 git clone https://github.com/halcyonproject/external_wpa_supplicant_8.git -b 16.2 external/wpa_supplicant_8
 git clone https://github.com/naifi1954/android_vendor_lineage-priv_keys -b master vendor/private/keys
